@@ -1,3 +1,10 @@
+/*myReduce
+Input: array, function, initial value
+* If initial value is not given, uses first element of array
+and iteration starts at 2nd element
+* Returns single value by performing function on the current
+element with the return value from the previous element
+Output: array */
 function myReduce(arr, funct, initial) {
     //if not initial val passed, use 1st val in array as initial 
     let result;

@@ -1,8 +1,8 @@
 /*myMap 
 Input: array, function
-Applies the function to each element of array
-Pushes result to output array
-Returns output array
+* Applies the function to each element of array
+* Pushes result to output array
+* Returns output array
 Output: array*/
 function myMap(arr, funct){
     let output = [];
