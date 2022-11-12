@@ -1,3 +1,4 @@
+//Translate string to spinal case
 function spinalCase(str) {
     //find all instances of lowercase letter followed by uppercase letter
     let lowerUpper = /([a-z])([A-Z])/g
